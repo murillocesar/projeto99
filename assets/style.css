@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+    overflow-x: hidden;
+}
+.logo{
+    height:40px;
+    padding-left:20px;
+}
+header{
+    display:flex;
+    flex-flow:column nowrap;
+    width:100vw;
+    height: 100vh;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    width:100vw;
+    background:rgb(245,245,245);
+    align-items: center;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 15px;  
+}
+
+li{
+    color:rgba(15,15,15);
+    margin:0 15px;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display:flex;
+    flex-flow:column nowrap;
+    width:100vw;
+    height: 100vh;    
+}
+
+footer{
+    display:flex;
+    flex-flow:column nowrap;
+    width:100vw;
+    height: 100vh; 
+    background-color: rgb(15,15,15);   
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #dddddd;
+    flex-direction: column;
+}
+
+.contato > h2{
+    font-size:2.3em;
+    font-family:sans-serif;
+    margin-bottom:15px;
+}
+
+.contato > button{
+    all:unset;
+    border:1px solid rgba(15,15,15,0.3);
+    padding:10px;
+    background:rgb(50,50,50);
+    border-radius:15px;
+    color:white;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(15,15,15);
+}
+
+.solucao{
+    height:60vh;
+    display: flex;
+    flex-flow:column wrap;
+    align-items:flex-start;
+    width:30vw;
+    background: rgb(220,220,220);
+
+}
+
+.solucao > p{
+    padding:10px;
+    text-align: left;
+    font-size:1.4em;
+    font-family: sans-serif;
+}
+.solucao > img{
+    padding-bottom: 15px;
+    object-fit: cover;
+    height:65%;
+    width:30vw;
+}
+
+
+.problema{
+    width: 40vw;
+    height: calc(100vh - 60px);
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #dddddd;
+
+}
+
+.problemaImg{
+    width: 60vw;
+    height: calc(100vh - 60px);
+    background-color: aquamarine;
+    
+}
+.imagem-problema{
+    height:inherit;
+    object-fit: cover;
+}
